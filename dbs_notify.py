@@ -34,7 +34,7 @@ server.ehlo()
 server.starttls()
 server.login("shitgarbageemail", "508Eastlowave?")
 msg['From'] = 'shitgarbageemail@gmail.com'
-msg['To'] = 'gtdubuque@gmail.com'
+msg['To'] = 'gtdubuque@gmail.com, kettlken@gmail.com'
 msg['Subject'] = 'New Episode of Dragon Ball Super!'
 
 schedular = BlockingScheduler()
